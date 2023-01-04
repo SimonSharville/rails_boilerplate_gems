@@ -40,7 +40,7 @@ Install Haml<br>
 **`gem install haml`**<br>
 
 To use Haml with Rails, add the following line to the Gemfile:<br>
-gem "haml"
+`**gem "haml"**`
 
 Change .erb files to .html.haml
 
