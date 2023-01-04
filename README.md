@@ -1,28 +1,50 @@
 # README
 
-## STEPS
-**cd ~/Gits**<br>
-Go to Gits folder
+### Terminal Commands
+https://karloespiritu.github.io/cheatsheets/rbenv/
 
-**rbenv shell 3.1.2**<br>
-Changes the version of Ruby we are using for that console session ONLY
+Check which version of Bundler is in Directory<br>
+**`bundle -v`**
 
-**rails new NEW_PROJECT**<br>
-Builds a new directory and installs Ruby
+Check for which version of rails you have on system<br>
+**`ruby -v`**
 
-**cd NEW_PROJECT**<br>
-Go to new directory
+List all the Ruby versions know to rbenv<br>
+**`rbenv version`**
 
-**rails s**### STEPS
-**cd ~/Gits**<br>
-Start Server
+Displays the currently active Ruby version<br>
+**`rbenv versions`**
 
-Since installing bundler and rails is just setting the environment for Ruby 3.1.2.
+Install the latest bundler<br>
+**`gem install bundler`**
+
+Check Gem List<br>
+**`gem list`**
+
+Installs the latest rails in directory<br>
+**`gem install rail`**
+
+Installs latest gems<br>
+**`bundle install`**
 
 ---
+### STEPS
+Go to Gits folder<br>
+**`cd ~/Gits`**
 
-**bundle -v**<br>
-Check Bundle version
+Change the version of Ruby we are using for that console session ONLY<br>
+**`rbenv shell 3.1.2`**
+
+Build a new directory and installs Ruby<br>
+**`rails new *NEW_PROJECT* `**
+
+Go to new directory<br>
+**`cd *NEW_PROJECT* `**
+
+Start Server<br>
+**`rails s`**
+
+---
 
 ### SOURCETREE
 https://stackoverflow.com/questions/25985597/how-to-push-a-local-repository-to-remote-use-sourcetree<br>
@@ -31,7 +53,7 @@ https://stackoverflow.com/questions/25985597/how-to-push-a-local-repository-to-r
 3. Add Local Repository to Bookmarks<br>
 4. Right-click on the name of your local repo<br>
 5. Follow the rest of the prompts to completion<br>
-6. Repository Must be SSL not htpps
+6. Repository Must be SSL not https
 
 
 
@@ -40,49 +62,16 @@ Install Haml<br>
 **`gem install haml`**<br>
 
 To use Haml with Rails, add the following line to the Gemfile:<br>
-`**gem "haml"**`
+**`gem "haml"`**
 
 Change .erb files to .html.haml
 
 
 ### GETTING STARTED WITH RAILS
 https://guides.rubyonrails.org/getting_started.html<br>
-
 SEE: section 4. Hello, Rails!
 
 
 
 ---
 
-
-
-
-
-### Set Up
-https://guides.rubyonrails.org/getting_started.html
-
-**cd ~/Gits**<br>
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-*
