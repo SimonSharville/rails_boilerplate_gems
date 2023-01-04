@@ -1,7 +1,7 @@
 # README
 
 ### STEPS
-**cd ~/Gits**. 
+**cd ~/Gits**.  
 Go to Gits folder
 
 **rbenv shell 3.1.2**
