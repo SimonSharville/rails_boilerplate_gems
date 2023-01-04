@@ -1,29 +1,29 @@
 # README
 
 ### STEPS
-**cd ~/Gits**
+**cd ~/Gits**<br>
 Go to Gits folder
 
-**rbenv shell 3.1.2**
+**rbenv shell 3.1.2**<br>
 Changes the version of Ruby we are using for that console session ONLY
 
-**rails new NEW_PROJECT**
+**rails new NEW_PROJECT**<br>
 Builds a new directory and installs Ruby
 
-**cd NEW_PROJECT**
+**cd NEW_PROJECT**<br>
 Go to new directory
 
-**rails s**
+**rails s**<br>
 Start Server
 
 Since installing bundler and rails is just setting the environment for Ruby 3.1.2.
 
 ---
 
-**bundle -v**
+**bundle -v**<br>
 Check Bundle version
 
-**gem install haml**
+**gem install haml**<br>
 Install Haml
 
 ---
