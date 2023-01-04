@@ -25,7 +25,7 @@ Since installing bundler and rails is just setting the environment for Ruby 3.1.
 Check Bundle version
 
 ### SOURCETREE
-* https://stackoverflow.com/questions/25985597/how-to-push-a-local-repository-to-remote-use-sourcetree<br>
+https://stackoverflow.com/questions/25985597/how-to-push-a-local-repository-to-remote-use-sourcetree<br>
 1. Open Sourcetree<br>
 2. Go to Window > Show Remote Hosted Repositories<br>
 3. Add Local Repository to Bookmarks<br>
@@ -46,7 +46,7 @@ Change .erb files to .html.haml
 
 
 ### GETTING STARTED WITH RAILS
-* https://guides.rubyonrails.org/getting_started.html<br>
+https://guides.rubyonrails.org/getting_started.html<br>
 
 SEE: section 4. Hello, Rails!
 
@@ -59,7 +59,7 @@ SEE: section 4. Hello, Rails!
 
 
 ### Set Up
-*https://guides.rubyonrails.org/getting_started.html
+https://guides.rubyonrails.org/getting_started.html
 
 **cd ~/Gits**<br>
 
