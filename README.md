@@ -36,10 +36,10 @@ Change the version of Ruby we are using for that console session ONLY<br>
 **`rbenv shell 3.1.2`**
 
 Build a new directory and installs Ruby<br>
-**`rails new *NEW_PROJECT* `**
+**`rails new NEW_PROJECT `**
 
 Go to new directory<br>
-**`cd *NEW_PROJECT* `**
+**`cd NEW_PROJECT `**
 
 Start Server<br>
 **`rails s`**
