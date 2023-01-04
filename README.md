@@ -36,8 +36,8 @@ https://stackoverflow.com/questions/25985597/how-to-push-a-local-repository-to-r
 
 
 ### HAML
-Install Haml
-`gem install haml`<br>
+Install Haml<br>
+**`gem install haml`**<br>
 
 To use Haml with Rails, add the following line to the Gemfile:<br>
 gem "haml"
