@@ -1,2 +1,119 @@
 %h1 Hello, Rails!
 %p Find me in app/views/articles/index.html.html.haml
+
+%h3 Terminal Commands
+= link_to 'rbenv commands', 'https://karloespiritu.github.io/cheatsheets/rbenv/', target: :_blank
+
+%p
+  Check which version of Bundler is in Directory
+  %br/
+  %code bundle -v
+
+%p
+  Check for which version of rails you have on system
+  %br/
+  %code ruby -v
+
+%p
+  List all the Ruby versions know to rbenv
+  %br/
+  %code rbenv version
+  %br/
+
+%p
+  Displays the currently active Ruby version
+  %br/
+  %code rbenv versions
+
+%p
+  Install the latest bundler
+  %br/
+  %code gem install bundler
+
+%p
+  Check Gem List
+  %br/
+  %code gem list
+
+%p
+  Installs the latest rails in directory
+  %br/
+  %code gem install rail
+
+%p
+  Installs latest gems
+  %br/
+  %code bundle install
+
+%hr/
+
+%h3 STEPS
+%p
+  Go to Gits folder
+  %br/
+  %code cd ~/Gits
+
+%p
+  Change the version of Ruby we are using for that console session ONLY
+  %br/
+  %code rbenv shell 3.1.2
+
+%p
+  Build a new directory and installs Ruby
+  %br/
+  %code rails new NEW_PROJECT
+
+%p
+  Go to new directory
+  %br/
+  %code cd NEW_PROJECT
+
+%p
+  Start Server
+  %br/
+  %code rails s
+
+%hr/
+
+%h3 SOURCETREE
+%p
+  = link_to 'How to push a local repository to remote use "SourceTree"',
+            'https://stackoverflow.com/questions/25985597/how-to-push-a-local-repository-to-remote-use-sourcetree',
+            target: :_blank
+
+  %br/
+  1. Open Sourcetree
+  %br/
+  2. Go to Window > Show Remote Hosted Repositories
+  %br/
+  3. Add Local Repository to Bookmarks
+  %br/
+  4. Right-click on the name of your local repo
+  %br/
+  5. Follow the rest of the prompts to completion
+  %br/
+  6. Repository Must be SSL not https
+
+%hr/
+
+%h3 HAML
+%p
+  Install Haml
+  %br/
+  %code gem install haml
+
+%p
+  To use Haml with Rails, add the following line to the Gemfile:
+  %br/
+  %code gem "haml"
+
+%p
+  Change .erb files to .html.haml
+
+
+%h3 GETTING STARTED WITH RAILS
+%p
+  = link_to 'Getting Started with Rails', 'https://guides.rubyonrails.org/getting_started.html', target: :_blank
+
+  %br/
+  SEE: section 4. Hello, Rails!
